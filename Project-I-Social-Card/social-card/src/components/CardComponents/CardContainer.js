@@ -5,8 +5,8 @@ import CardBanner from './CardBanner';
 
 const CardContainer = () => {
     return (
-      <div class="card-container">
-      < CardBanner />
+      <div className="card-container">
+      <CardBanner/>
       </div>
     );
   };
