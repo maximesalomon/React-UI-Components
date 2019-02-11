@@ -2,6 +2,15 @@
 
 .card-container {
     width: 580px;
-    margin: 0 0 0 240px;
-    padding-left: 100px;
+    margin: 10px 0 0 240px;
+    padding-left: 190px;
+    font-family: helvetica;
+  }
+
+  .card-content {
+    width: 480px;
+  }
+
+  .bannerLink {
+    color: gray;
   }

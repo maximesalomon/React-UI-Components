@@ -5,11 +5,14 @@
     display: flex;
     margin: 0 auto;
     width: 580px;
-    height: 106px;
-    border: solid 1px lightgray;
+    height: 130px;
     font-family: helvetica;
   }
 
-  .header-container .image-thumbnail {
+  .header-title {
+    display: flex;
+  }
+
+  .image-thumbnail {
     padding: 20px 12px;
   }
