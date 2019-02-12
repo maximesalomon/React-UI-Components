@@ -1,9 +1,9 @@
 /* All styles for your Card Components live here */
 
 .card-container {
+    margin: 0 auto;
+    padding-left: 130px;
     width: 580px;
-    margin: 10px 0 0 240px;
-    padding-left: 190px;
     font-family: helvetica;
   }
 
