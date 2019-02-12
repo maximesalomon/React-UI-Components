@@ -2,13 +2,16 @@
 
 .card-container {
     margin: 0 auto;
-    padding-left: 130px;
-    width: 580px;
+    
+    width: 487px;
     font-family: helvetica;
+    border: 1px solid lightgrey;
+    border-radius: 0 0 5px 5px;
   }
 
   .card-content {
     width: 480px;
+    margin-left: 20px;
   }
 
   .bannerLink {
