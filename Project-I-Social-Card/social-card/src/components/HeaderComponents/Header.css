@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    font-size: 14px;
+    display: flex;
+    margin: 0 auto;
+    width: 580px;
+    height: 130px;
+    font-family: helvetica;
+  }
+
+  .header-title {
+    display: flex;
+  }
+
+  .image-thumbnail {
+    padding: 20px 12px;
+  }
