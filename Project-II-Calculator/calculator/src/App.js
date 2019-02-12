@@ -10,24 +10,32 @@ class App extends React.Component {
     super(props);
 
     this.state = {
+      total: 0,
+      current_number: 0,
       number: 0,
+      operator: null,
+      second_number: 0,
     }
     this.press = this.press.bind(this);
   }
 
-  setNumber(number) {
-    this.setState({ number });
+  press(current_number) {
+    this.setState({ current_number });
+    this.setNumber(current_number)
+  }
+  
+  setNumber(number){
+    number = number + number
+    this.setState({number})
   }
 
-  press(keynum) {
-    this.setNumber(keynum);
-  }
+  
 
   render() {
     return (
       <div>
         <div className="app">
-          <CalculatorDisplay total={this.state.number} />
+          <CalculatorDisplay total={this.state.total} />
           <div className="calckeys">
             <NumberButton press={this.press} />
             <ActionButton />
