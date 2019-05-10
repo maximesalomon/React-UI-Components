@@ -1,0 +1,14 @@
+.calculatorDisplay {
+    height: 100px;
+    width: 400px;
+    border: 1px solid lightgrey;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.numberDisplay {
+    font-size: 50px;
+    margin-top: 45px;
+}
